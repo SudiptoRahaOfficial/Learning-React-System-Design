@@ -7,3 +7,4 @@ This repository documents my journey of learning **React Application System Desi
 * Part 01: Folder Structures
 * Part 02: Naming Convention & Code Documentation
 * Part 03: API Architecture & Service Layer
+* Part 04: Centralized API Error Handling & Toast Notifications
