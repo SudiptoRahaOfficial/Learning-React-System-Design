@@ -16,6 +16,11 @@ function Header() {
 					</NavLink>
 				</li>
 				<li>
+					<NavLink className='nav-link' to='/products'>
+						Products
+					</NavLink>
+				</li>
+				<li>
 					<NavLink className='nav-link' to='/user-add'>
 						Add User
 					</NavLink>

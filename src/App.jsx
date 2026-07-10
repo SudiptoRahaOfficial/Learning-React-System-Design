@@ -6,6 +6,7 @@ import Home from './pages/Home'
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 
 import Header from './components/Header'
+const Products = lazy(() => import('./components/Products'))
 import SuspenseLoader from './components/SuspenseLoader'
 
 import AuthRoutes from './routes/Auth.routes'
@@ -20,6 +21,14 @@ function App() {
 			element: (
 				<Suspense fallback={<SuspenseLoader />}>
 					<Dashboard />
+				</Suspense>
+			),
+		},
+		{
+			path: '/products',
+			element: (
+				<Suspense fallback={<SuspenseLoader />}>
+					<Products />
 				</Suspense>
 			),
 		},
