@@ -11,6 +11,11 @@ function Header() {
 			</h2>
 			<ul>
 				<li>
+					<NavLink className='nav-link' to='/dashboard'>
+						Dashboard
+					</NavLink>
+				</li>
+				<li>
 					<NavLink className='nav-link' to='/user-add'>
 						Add User
 					</NavLink>

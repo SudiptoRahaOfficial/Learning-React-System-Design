@@ -57,7 +57,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #f8f9fa;
+	background-color: #000000;
 	padding: 20px;
 }
 
@@ -69,19 +69,19 @@ body {
 .status-code {
 	font-size: 96px;
 	font-weight: 700;
-	color: #dc3545;
+	color: #ff0000;
 	margin-bottom: 16px;
 }
 
 .status-title {
 	font-size: 32px;
 	margin-bottom: 16px;
-	color: #212529;
+	color: #ffffff;
 }
 
 .status-description {
 	font-size: 18px;
-	color: #6c757d;
+	color: #b2b3b4;
 	margin-bottom: 32px;
 	line-height: 1.6;
 }
@@ -89,7 +89,7 @@ body {
 .status-button {
 	display: inline-block;
 	text-decoration: none;
-	background-color: #212529;
+	background-color: #ff0000;
 	color: #ffffff;
 	padding: 12px 24px;
 	border-radius: 6px;
@@ -97,7 +97,7 @@ body {
 }
 
 .status-button:hover {
-	background-color: #000000;
+	background-color: #1e1e1e;
 }
 
 /* ===========================
@@ -105,7 +105,7 @@ body {
 =========================== */
 
 .loader-container {
-	min-height: 100vh;
+	min-height: 260px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -123,12 +123,69 @@ body {
 }
 
 .loader-text {
-	font-size: 16px;
-	color: #6c757d;
+	font-size: 20px;
+	color: #ffffff;
 }
 
 @keyframes spin {
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+/* ===========================
+   Dashboard
+=========================== */
+
+.dashboard-page {
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000;
+	padding: 20px;
+}
+
+.dashboard-card {
+	width: 100%;
+	max-width: 700px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.dashboard-title {
+	font-size: 36px;
+	margin-bottom: 16px;
+	color: #000000;
+}
+
+.dashboard-description {
+	font-size: 18px;
+	color: #252525;
+	line-height: 1.6;
+	margin-bottom: 32px;
+}
+
+.dashboard-actions {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.dashboard-button {
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 12px 24px;
+	border-radius: 6px;
+	transition: background-color 0.2s ease;
+}
+
+.dashboard-button:hover {
+	background-color: #3c3c3c;
 }

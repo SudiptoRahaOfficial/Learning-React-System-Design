@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import { Route, Routes } from 'react-router'
 
 import Home from './pages/Home'
+// importing dashboard page using lazy loading
+const Dashboard = lazy(() => import('./pages/Dashboard'))
 
 import Header from './components/Header'
+import SuspenseLoader from './components/SuspenseLoader'
 
 import AuthRoutes from './routes/Auth.routes'
 import UserRoutes from './routes/User.routes'
@@ -12,6 +15,14 @@ import OtherRoutes from './routes/Other.routes'
 function App() {
 	const AllRoutes = [
 		{ path: '/', element: <Home /> },
+		{
+			path: '/dashboard',
+			element: (
+				<Suspense fallback={<SuspenseLoader />}>
+					<Dashboard />
+				</Suspense>
+			),
+		},
 		...AuthRoutes,
 		...UserRoutes,
 		...OtherRoutes,
