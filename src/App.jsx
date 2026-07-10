@@ -1,13 +1,21 @@
 import React from 'react'
 import { Route, Routes } from 'react-router'
 
+import Home from './pages/Home'
+
 import Header from './components/Header'
 
 import AuthRoutes from './routes/Auth.routes'
 import UserRoutes from './routes/User.routes'
+import OtherRoutes from './routes/Other.routes'
 
 function App() {
-	const AllRoutes = [...AuthRoutes, ...UserRoutes]
+	const AllRoutes = [
+		{ path: '/', element: <Home /> },
+		...AuthRoutes,
+		...UserRoutes,
+		...OtherRoutes,
+	]
 
 	return (
 		<>

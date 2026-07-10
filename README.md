@@ -10,3 +10,7 @@ This repository documents my journey of learning **React Application System Desi
 * Part 04: Centralized API Error Handling & Toast Notifications
 * Part 05: Feature Based Route Grouping
 * Part 06: Lazy Loading With Routing
+* Part 07: Handling 404 Page Not Found
+* Part 08: Handling 403 Unauthorized
+* Part 09: Handling Lazy Loading Failure
+* Part 10: Handling Unexpected Runtime Errors
