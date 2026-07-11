@@ -15,3 +15,7 @@ This repository documents my journey of learning **React Application System Desi
 * Part 09: Handling Lazy Loading Failure
 * Part 10: Handling Unexpected Runtime Errors
 * Part 11: Container vs Presentational Components
+* Part 12: Smart vs Dumb Components
+    * Smart Component: It can hold business logic, api calls, states & UI in the same file - (No code example here)
+    * Dumb Component: It can only hold UI & small amount of local states in the same file - (No code example here)
+* Part 13: Composable Components
