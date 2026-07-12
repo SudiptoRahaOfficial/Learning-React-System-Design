@@ -1,10 +1,13 @@
+import { useRef } from 'react'
 import { Link } from 'react-router'
 
 function Signin() {
+	const email = useRef('')
+	const password = useRef('')
+
 	const handleSubmit = (event) => {
 		event.preventDefault()
-
-		// TODO: Implement sign in logic
+		alert(`${email.current.value} | ${password.current.value}`)
 	}
 
 	return (
@@ -21,6 +24,7 @@ function Signin() {
 						<label htmlFor='email'>Email</label>
 
 						<input
+							ref={email}
 							id='email'
 							type='email'
 							name='email'
@@ -34,6 +38,7 @@ function Signin() {
 						<label htmlFor='password'>Password</label>
 
 						<input
+							ref={password}
 							id='password'
 							type='password'
 							name='password'
