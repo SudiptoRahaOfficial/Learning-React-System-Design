@@ -22,3 +22,8 @@ This repository documents my journey of learning **React Application System Desi
 * Part 14: Controlled & Uncontrolled Components
 * Part 15: Atomic Design Pattern / Component Architecture Pattern - (No code example here)
 * Part 16: Custom Hooks Design Pattern
+* Part 17: Separation of Concerns - (No code example here)
+* Part 18: Monorepo Architecture
+    * Monorepo (Monolithic Repository) Architecture is a way of organizing software projects where multiple related projects are stored inside a single Git repository instead of creating a separate repository for each project - (No code example here)
+* Part 19: Polyrepo Architecture
+    * Polyrepo Architecture is a project structure where each application, service, or library is stored and managed in its own separate Git repository - (No code example here)
