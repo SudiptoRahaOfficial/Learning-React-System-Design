@@ -20,3 +20,5 @@ This repository documents my journey of learning **React Application System Desi
     * Dumb Component: It can only hold UI & small amount of local states in the same file - (No code example here)
 * Part 13: Composable Components
 * Part 14: Controlled & Uncontrolled Components
+* Part 15: Atomic Design Pattern / Component Architecture Pattern - (No code example here)
+* Part 16: Custom Hooks Design Pattern

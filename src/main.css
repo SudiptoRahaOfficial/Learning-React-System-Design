@@ -369,3 +369,58 @@ body {
 .auth-footer a:hover {
 	text-decoration: underline;
 }
+
+/* ===========================
+   Theme Card
+=========================== */
+
+.theme-card {
+	max-height: 200px;
+	padding: 24px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.theme-title {
+	margin-bottom: 12px;
+	font-size: 22px;
+	color: #000;
+}
+
+.theme-description {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 24px;
+	color: #000;
+}
+
+.theme-badge {
+	padding: 8px 16px;
+	border-radius: 999px;
+	background-color: #000;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.theme-actions {
+	display: flex;
+	gap: 12px;
+}
+
+.theme-button {
+	padding: 8px 20px;
+	border: none;
+	border-radius: 3px;
+	background-color: #212529;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.theme-button:hover {
+	background-color: #000000;
+}
